@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 초기화 */
+body, h1, h2 { margin: 0; padding: 20px; }
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #000 15%, #a20000 100%) no-repeat;
+    color: #fff; }
+/* 메인 */
+h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 20px;;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: url(/logo.png) no-repeat center / cover;
+    text-indent: -9999px;
+}
